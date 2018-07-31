@@ -1,7 +1,7 @@
 # QuaterNet: A Quaternion-based Recurrent Model for Human Motion
 
 This is the implementation of the approach described in the paper:
-> Dario Pavllo, David Grangier, and Michael Auli. [QuaterNet: A Quaternion-based Recurrent Model for Human Motion](https://arxiv.org/abs/1805.06485). In arXiv preprint arXiv:1805.06485, 2018.
+> Dario Pavllo, David Grangier, and Michael Auli. [QuaterNet: A Quaternion-based Recurrent Model for Human Motion](https://arxiv.org/abs/1805.06485). In *British Machine Vision Conference (BMVC)*, 2018.
 
 We provide the code for reproducing our results (*short-term prediction*) and generating/rendering locomotion animations (*long-term generation*), as well as pre-trained models.
 
@@ -78,10 +78,10 @@ You can download them from the *Releases* section of this repository. You only n
 This work is licensed under CC BY-NC. See `LICENSE` for details. Third-party datasets are subject to their respective licenses.
 If you use our code/models in your research, please cite our paper:
 ```
-@article{pavllo:quaternet:2018,
+@inproceedings{pavllo:quaternet:2018,
   title={QuaterNet: A Quaternion-based Recurrent Model for Human Motion},
   author={Pavllo, Dario and Grangier, David and Auli, Michael},
-  journal={arXiv preprint arXiv:1805.06485},
+  booktitle={British Machine Vision Conference (BMVC)},
   year={2018}
 }
 ```
