@@ -130,7 +130,7 @@ class PoseNetwork:
 
                     loss_total = penalty_loss + loss
                     loss_total.backward()
-                    gradient_norms.append(nn.utils.clip_grad_norm_(self.model.parameters(), gradient_clip).item())
+                    nn.utils.clip_grad_norm_(self.model.parameters(), gradient_clip)
                     optimizer.step()
 
                     # Compute statistics
